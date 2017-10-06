@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alternate Fomentation</string>
+    <string name="instruction_hot">Place HOT WATER BAG and press the button below.</string>
+    <string name="instruction_cold">Place COLD PACK and press the button below</string>
+</resources>
