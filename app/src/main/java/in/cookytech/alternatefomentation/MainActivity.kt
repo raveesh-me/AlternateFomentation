@@ -13,6 +13,10 @@ import android.widget.TextView
 import org.jetbrains.anko.*
 import org.jetbrains.anko.sdk25.coroutines.onClick
 
+val colors = arrayOf(
+        Color.parseColor("#E65100"),//YELLOW_500
+        Color.parseColor("#1976d2")//BLUE
+)
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     var attempt = 0
 
 
-    @SuppressLint("ResourceType")
+    @SuppressLint("ResourceType", "SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
